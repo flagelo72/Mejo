@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/c4649b46847caebbb518a5ca70b07b20507f5255_hq.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 90vw;
+    height: 31.5rem;
+    
+}
+
+@media (max-width: 768px) {
+    /* Ajuste específico para pantallas más pequeñas, como dispositivos móviles */
+    body {
+        background-image: url(/img/stray.jpg); /* Agregar imagen de fondo para dispositivos móviles */
+        background-size: contain; /* Cambiar a contain para que el contenido de la imagen sea legible */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+
+
+.container {
+    background: linear-gradient(to bottom,rgb(152, 81, 115) 0%, #e41ac993 100%);
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.274);
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 60%;
+    height: 400px;
+}
+
+.texto {
+    margin: 5% 2%;
+    padding: 2%;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.588);
+    font-family: 'Tilt Prism', cursive;
+    font-size: 1.3rem;
+}
+
+/* Ajuste para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .texto {
+        font-size: 1rem;
+        margin: 10% 5%;
+        padding: 5%;
+    }
+}
+
+
+.respuestas {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.derecha, .izquierda {
+    background: linear-gradient(to bottom,#9b538179 0%, #a700aa82 75%);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.419);
+    cursor: pointer;
+    font-family: 'Tilt Prism', cursive;
+    color: rgba(255, 255, 255, 0.56);
+    border-color: rgba(255, 255, 255, 0.395) ;
+    border-radius: 5px;
+    width: 60px;
+    margin: auto;
+}
+
+.derecha {
+    margin-left: 20%;
+}
+.mov1{
+    position: absolute;
+    top: 30px;
+    right: 69px;
+   }
+   .mov2{
+       position: absolute;
+       bottom: 30px;
+      }
+   
+/* Añade más estilos aquí si es necesario */
+.afirmativo{
+    display: none;
+        background: linear-gradient(to bottom,rgb(152, 81, 115) 0%, #e41ac993 100%);
+        box-shadow: 20px 20px rgba(0, 0, 0, 0.419);
+        margin: auto;
+        margin-top: 10%;
+        border-radius: 20px;
+        width: 60%;
+        height: 400px;
+        color: rgba(240, 248, 255, 0.588);
+        padding: 2%;
+        text-align: center;
+        font-family: 'Tilt Prism', cursive;
+        color: rgba(240, 248, 255, 0.588);
+        font-size: 1.6rem;
+}
+@media (max-width: 768px) {
+    .afirmativo {
+        font-size: 1rem;
+        margin: 10% 5%;
+        padding: 5%;
+    }
+}
+h4{
+    font-size: 4rem;
+}
