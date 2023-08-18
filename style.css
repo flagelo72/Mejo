@@ -13,15 +13,15 @@ body {
     width: 60%;
     max-width: 600px;
     height: 400px;
-   border-left:solid 5px rgba(255, 255, 255, 0.403);
-   border-top: solid 5px rgba(255, 255, 255, 0.33);
+   border-left:solid 5px white;
+   border-top: solid 5px white;
 }
 
 .texto {
     margin: 5% 2%;
     padding: 2%;
     text-align: center;
-    color: rgba(240, 248, 255, 0.588);
+    color:white;
     font-family: 'Tilt Prism', cursive;
     font-size: 1.3rem;
 }
@@ -44,7 +44,7 @@ body {
     box-shadow: 5px 5px rgba(0, 0, 0, 0.419);
     cursor: pointer;
     font-family: 'Tilt Prism', cursive;
-    color: rgba(255, 255, 255, 0.56);
+    color:white;
     border-color: rgba(255, 255, 255, 0.395);
     border-radius: 5px;
     width: 60px;
@@ -68,7 +68,7 @@ body {
 
 .afirmativo {
     display: none;
-    background: linear-gradient(to bottom, rgb(152, 81, 115) 0%, #e41ac993 100%);
+    background-color: #B13996;
     box-shadow: 20px 20px rgba(0, 0, 0, 0.419);
     margin: auto;
     margin-top: 10%;
@@ -76,11 +76,13 @@ body {
     width: 60%;
     max-width: 600px;
     height: 400px;
-    color: rgba(240, 248, 255, 0.588);
+    color:white;
     padding: 2%;
     text-align: center;
     font-family: 'Tilt Prism', cursive;
     font-size: 1.6rem;
+    border-left:solid 5px white;
+    border-top: solid 5px white;
 }
 
 @media (max-width: 768px) {
